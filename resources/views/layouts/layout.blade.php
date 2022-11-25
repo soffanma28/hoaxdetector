@@ -10,6 +10,8 @@
 		<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
 		<link href="css/font-awesome.css" rel="stylesheet">
 		<script src="js/jquery-2.1.4.min.js"></script>
+
+        @yield('custom_css')
 	</head>
 	<body>
 		@yield('content')
